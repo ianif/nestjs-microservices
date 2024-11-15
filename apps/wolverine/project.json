@@ -15,7 +15,7 @@
         "outputPath": "dist/apps/wolverine",
         "main": "apps/wolverine/src/main.ts",
         "tsConfig": "apps/wolverine/tsconfig.app.json",
-        "assets": ["apps/wolverine/src/assets", "apps/wolverine/src/environments"],
+        "assets": ["apps/wolverine/src/assets"], // Removed unnecessary assets
         "additionalEntryPoints": [
           {
             "entryName": "cli",
@@ -55,7 +55,7 @@
         "outputPath": "dist/apps/wolverine-cli",
         "main": "apps/wolverine/src/main.cli.ts",
         "tsConfig": "apps/wolverine/tsconfig.app.json",
-        "assets": ["apps/wolverine/src/assets", "apps/wolverine/src/environments"]
+        "assets": ["apps/wolverine/src/assets"] // Removed unnecessary assets
       },
       "configurations": {
         "build": {
